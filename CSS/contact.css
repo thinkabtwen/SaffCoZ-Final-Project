@@ -1,0 +1,224 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5DADF;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #F5DADF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+nav img {
+    width: 150px;
+}
+
+#nav-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+#dropdown-icon {
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer; 
+}
+
+#menu-right {
+    display: flex;
+    align-items: center;
+}
+
+#menu-right.show {
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #BCA4E3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+
+    #nav-menu {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    #menu-right {
+        display: none; 
+        justify-content: right; 
+    }
+
+    .banner-section {
+        font-size: 28px; 
+        padding: 50px 10px; 
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #dropdown-icon {
+        display: none; 
+    }
+
+    #menu-right {
+        display: flex; 
+    }
+}
+
+
+/* Contact Container Styles */
+.contact-container {
+    max-width: 620px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #F5DADF;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-container input,
+.contact-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-container button {
+    background-color: #F5DADF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.contact-container button:hover {
+    background-color: #BCA4E3; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Error and Success Messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #F5DADF;
+    color: black; 
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+    color: black;
+}
+
+.newsletter label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.newsletter input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -3.5px;
+    *overflow: hidden;
+}
+
+/* Style for the active link */
+.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #BCA4E3; 
+}

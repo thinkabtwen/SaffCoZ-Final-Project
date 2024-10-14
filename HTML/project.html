@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SaffCoZ</title>
+    <link rel="stylesheet" href="../CSS/project.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="" alt="" width="150">
+        <div id="dropdown-icon">☰</div>
+        <div id="nav-menu">
+            <div id="menu-right">
+                <div class="hover-underline-animation">
+                    <a href="#" id="home-link">Home</a>
+                </div>
+                <div class="hover-underline-animation">
+                    <a href="Products.html" id="products-link">Products</a>
+                </div>
+                <div class="hover-underline-animation">
+                    <a href="about-us.html" id="about-link">About Us</a>
+                </div>
+                <div class="hover-underline-animation">
+                    <a href="store-locator.html" id="store-link">Store Location</a>
+                </div>
+                <div class="hover-underline-animation">
+                    <a href="contact-us.html" id="contact-link">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="banner-section">
+        <h1>Welcome to SaffCoZ</h1>
+        <p>One stop solution for your perfumes!</p>
+        <a href="Products.html">
+            <button id="btn1">Browse Our Collections</button>
+        </a>
+    </div>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <!-- Banner Carousel Section -->
+<div class="carousel">
+    
+    <div class="carousel-slides">
+        <a href="Products.html">
+            <!-- Slide 1 - Best seller -->
+        <div class="carousel-slide active">
+            <img src="../Images/perfume 5.jpg" alt="Best Seller" class="carousel-image">
+            <div class="carousel-caption">
+                <h2>Best Seller</h2>
+                <p>Our most popular perfume,loved by all.</p>
+            </div>
+        </div>
+        </a>
+        
+       
+        <!-- Slide 2 - New Arrival -->
+        <a href="Products.html">
+        <div class="carousel-slide">
+            <img src="../Images/perfume 7.jpg" alt="New Arrival" class="carousel-image">
+            <div class="carousel-caption">
+                <h2>New Arrival</h2>
+                <p>Discover the latest perfumes in our collections.</p>
+            </div>
+        </div>
+        </a>
+        
+
+        <a href="Products.html">
+        <!-- Slide 3 - Discounted Perfume -->
+        <div class="carousel-slide">
+            <img src="../Images/perfume 3.jpg" alt="Discounted Perfume" class="carousel-image">
+            <div class="carousel-caption">
+                <h2>Discounted Perfume</h2>
+                <p>Get the best deals on selected perfumes.</p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <!-- Navigation Dots -->
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+
+    </section>
+</body>
+
+<footer>
+    <div>
+        <a href="https://www.tokopedia.com/">
+    <img src="../Images/toped.png" alt="toped logo" width="20" height="20">
+</a>
+<!-- Instagram SaffCoZ saya buat hanya untuk properti pendukung -->
+<a href="https://www.instagram.com/saffcoz/">
+    <img src="../Images/ig.png" alt="ig logo" width="20" height="20">
+</a>
+</div>
+<p class="copyright">&copy 2024 Bryan Owen - 2602052185</p>
+</footer> 
+<script src="../JS/carousel.js"></script>
+</html>
