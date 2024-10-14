@@ -6,7 +6,7 @@ A perfume website created specifically to fulfill my final project, built using 
 4. Store Location Page - SaffCoZ's offline store location all around the world.
 5. Contact Us Page - Users can contact SaffCoZ for further details.
 
-How to run
+How to run:
 1. Open VS Code.
 2. Make sure you have Live Server extension, if not you can find it here https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer.
 3. Clone this repository.
