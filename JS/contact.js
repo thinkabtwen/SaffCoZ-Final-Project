@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.querySelectorAll('.error').forEach(error => error.textContent = '');
 
-        // Validasi Nama
+        // Validate Full Name
         const fullname = document.getElementById('fullname').value;
         if (fullname.trim() === "") {
             document.getElementById('name-error').textContent = 'Full name is required.';
             valid = false;
-        } else if(isOnlyDigits(fullname)){
-            document.getElementById('name-error').textContent = 'Full name must contain only words';
+        } else if (isOnlyDigits(fullname)) {
+            document.getElementById('name-error').textContent = 'Full name must contain only words.';
             valid = false;
         }
 
-        // Validasi Email
+        // Validate Email
         const email = document.getElementById('email').value;
         if (email.trim() === "") {
             document.getElementById('email-error').textContent = 'Email is required.';
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             valid = false;
         }
 
-        // Validate No Telp Harus Angka
+        // Validate Phone Number
         const phone = document.getElementById('phone').value;
         if (phone.trim() === "") {
             document.getElementById('phone-error').textContent = 'Phone number is required.';
@@ -41,6 +41,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const gender = document.getElementById('gender').value;
         if (gender === "") {
             document.getElementById('gender-error').textContent = 'Please select your gender.';
+            valid = false;
+        }
+
+        // Validate Checkbox
+        const newsletterChecked = document.getElementById('newsletter').checked;
+        if (!newsletterChecked) {
+            document.getElementById('newsletter-error').textContent = 'You must agree to receive the latest news, exclusive offers and new product releases';
             valid = false;
         }
 
@@ -59,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return true; 
     }
 });
+
 
 // For Active Link/Page
 window.onload = function() {
