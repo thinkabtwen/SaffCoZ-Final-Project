@@ -1,0 +1,54 @@
+Guide for Figma:
+
+This website consists of 5 main pages: 
+    - Home Page - Landing page consists of 3 sliding banners.
+    - Products Page - Customers can browse SaffCoZ's collections here, there's a page built specifically for women/men's fragrances.
+    - About Us Page - Customers can read about SaffCoZ's background story here.
+    - Store Location Page - SaffCoZ's offline store location all around the world.
+    - Contact Us Page - Customers can contact SaffCoZ for further details.
+
+All pages features the same header and footer for consistency. If the customers tap the SaffCoZ logo, it will bring the customers back to the home page. If the customers tap the "Products" button, it will bring the customers to SaffCoZ's perfumes collections. If the uscustomersers tap the "About Us" button, customers can read about SaffCoZ's history, vision, mission, numbers of perfumes released and signature scents. Next, the "Our Store" button will take customers to SaffCoZ's offline store location page all around the world. Last, customers can contact SaffCoZ for further details by tapping into "Contact Us" button and fill all the requirements there. 
+
+1. Home Page
+The first landing page consists of 3 sliding banners, including best seller, new arrival and 30% off perfume (discounted). Customers can tap on the "Find Out More" button or the "Browse Our Collections" button to go to our products page. Customers can also tap on the 3 dots beneath to go the next banner.
+
+2. Products Page
+This page is home to all SaffCoZ's collections including women's fragrances and men's fragrances. This page will show women's fragrances by default and if the customers want to see men's fragrances, the customers have to tap on the dropdown icon near the "For Her" button and it will take the users to the men's fragrances collection indicated by "For Him" button. Here the customers can choose the fragrances they like by reading the perfume name and description.
+
+3. About Us Page
+This page is where customers can read about SaffCoZ's background story, vision, mission, numbers of perfumes released and the signature scents. 
+
+4. Store Location Page
+Customers can find SaffCoZ products on SaffCoZ's offline store all around the world. Currently, SaffCoZ is available in 5 different countries, such as Indonesia, Singapore, New Zealand, China and South Korea.
+Customers can change the country by tapping the dropdown icon near the name of the country in the top left corner. Customers can find SaffCoZ's offline store easily because the developer also provide the location of the store.
+
+5. Contact Us Page
+Last, customers who have further questions can reach SaffCoZ by filling the contact us form and providing all the necessary requirement. Once submitted, SaffCoZ's representatives will get back to the users as soon as possible.
+
+Guide for the website:
+
+This website consists of 5 main pages: 
+    - Home Page - Landing page consists of a wallpaper saying "Welcome to SaffCoZ" and 3 sliding banners.
+    - Products Page - Customers can browse SaffCoZ's collections here, there's a page built specifically for women/men's fragrances.
+    - About Us Page - Customers can read about SaffCoZ's background story here.
+    - Store Location Page - SaffCoZ's offline store location all around the world.
+    - Contact Us Page - Customers can contact SaffCoZ for further details.
+
+All pages features the same header and footer for consistency. If the customers tap the "Home" button, it will bring the customers back to the home page. If the customers tap the "Products" button, it will bring the customers to SaffCoZ's perfumes collections. If the customers tap the "About Us" button, users can read about SaffCoZ's history, vision, mission, numbers of perfumes released and signature scents. Next, the "Store Location" button will take customers to SaffCoZ's offline store location page all around the world. Customers can also contact SaffCoZ for further details by tapping into "Contact Us" button and fill all the requirements there. Last, the website will highlight the tab navigation to inform where the page the customers is currently in and will underline the navigation tab when the customers hover around it. For the footer, customers can tap into the Tokopedia logo to go to SaffCoZ online store and the Instagram icon to go to SaffCoZ's Instagram page. Yes, the Instagram page is a real one. Underneath the icon, customers can see the copyright logo and the name of the developer. This website is also accessible if the customers are using a mobile phone.
+
+1. Home Page
+The customers will be greeted by the big "Welcome to SaffCoZ" text in our landing page. The text will also be accompanied by a perfume wallpaper. Underneath the text, there's a slogan saying "One stop solution for your perfumes!" as SaffCoZ aims to fulfill all the customers perfumes needs. Underneath, there's a shortcut button saying "Browse Our Collections" that will take customers to SaffCoZ's products page. If the users hover around this button, the button will change its background color from light pink to lavender. Scrolls down a little bit and the users can find the sliding banners that will change every 4 seconds. Customers can also change the banner image by tapping the three dots below. If the customers tap on one of the banner image, it will take the customers to SaffCoZ's products page.
+
+2. Products Page
+Here is where the customers can find all of SaffCoZ's perfumes collection. There's a "For Her" and "For Him" section to distinguish the perfume for each genders. The developer provide the name, image, description, fragrance type, notes and the size of the perfume so the customers can get a better understanding of the perfume they wanted to buy. Hovering around one of the products will make the products appear bigger.
+
+3. About Us Page
+This page is where customers can read about SaffCoZ's background story, vision, mission, numbers of perfumes released and the signature scents such as Fruity Floral, Floral Warm, Amber Vanilla and Amber Woody separated by a horizontal line.
+
+4. Store Location Page
+Customers can find SaffCoZ products on SaffCoZ's offline store all around the world. Currently, SaffCoZ is available in 5 different countries, such as Indonesia, Singapore, New Zealand, China and South Korea separated by a horizontal line. Customers can find SaffCoZ's offline store easily because the developer also provide the image and the location of the store. Hovering around one of the stores will make the stores appear bigger.
+
+5. Contact Us Page
+Last, customers who have further questions can reach SaffCoZ by filling the contact us form and providing all the necessary requirement. Once submitted, SaffCoZ's representatives will get back to the users as soon as possible. This form also has a validation where the text field cannot be empty, the full name field must contain only words and not numbers, the email must contain "@", the phone number must contain only numbers, the customers must select their gender and they must checked the checkbox. If all the requirements are fulfilled, then the forms will return a message saying "Thank you for contacting SaffCoZ! We will get back to you soon".
+
+Notes: You can find all the images reference by going to "/Reference/reference.txt".
