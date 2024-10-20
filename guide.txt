@@ -23,7 +23,7 @@ Customers can find SaffCoZ products on SaffCoZ's offline store all around the wo
 Customers can change the country by tapping the dropdown icon near the name of the country in the top left corner. Customers can find SaffCoZ's offline store easily because the developer also provide the location of the store.
 
 5. Contact Us Page
-Last, customers who have further questions can reach SaffCoZ by filling the contact us form and providing all the necessary requirement. Once submitted, SaffCoZ's representatives will get back to the users as soon as possible.
+Last, customers who have further questions can reach SaffCoZ by filling the contact us form and providing all the necessary requirement. Once submitted, SaffCoZ's representatives will get back to the users as soon as possible. There's also a variant for checked/unchecked checkbox and checked/unchecked radio button.
 
 Guide for the website:
 
